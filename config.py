@@ -8,7 +8,7 @@ class Config:
         self.API_ID = int(getenv("API_ID", "30422005"))
         self.API_HASH = getenv("API_HASH", "5170ded206641d73215baf40175a6924")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "Apna Bot Token")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "Apna Bot Token mc ")
         self.MONGO_URL = getenv("MONGO_URL", "Apna Mongo Db Dalo")
 
         self.LOGGER_ID = int(getenv("LOGGER_ID", "-1003951821704"))
